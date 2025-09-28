@@ -4,7 +4,7 @@ import es.net_tel.weatherapp.R
 import androidx.annotation.DrawableRes
 
 data class AirQualityItem(
-    @DrawableRes val icon: Int,
+    @param:DrawableRes val icon: Int,
     val title: String,
     val value: String
 )

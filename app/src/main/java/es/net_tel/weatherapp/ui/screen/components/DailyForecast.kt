@@ -103,23 +103,23 @@ fun DailyForecast(
     }
 }
 
-@Composable
-private fun CardBackground(
-    modifier: Modifier = Modifier
-) {
-    Box(
-        modifier = modifier
-            .fillMaxWidth()
-            .background(
-                brush = Brush.linearGradient(
-                    0f to ColorGradient1,
-                    0.5f to ColorGradient2,
-                    1f to ColorGradient3
-                ),
-                shape = RoundedCornerShape(32.dp)
-            )
-    )
-}
+//@Composable
+//private fun CardBackground(
+//    modifier: Modifier = Modifier
+//) {
+//    Box(
+//        modifier = modifier
+//            .fillMaxWidth()
+//            .background(
+//                brush = Brush.linearGradient(
+//                    0f to ColorGradient1,
+//                    0.5f to ColorGradient2,
+//                    1f to ColorGradient3
+//                ),
+//                shape = RoundedCornerShape(32.dp)
+//            )
+//    )
+//}
 
 @Composable
 private fun ForecastValue(
